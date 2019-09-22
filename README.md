@@ -15,11 +15,11 @@ This simple Telegram Bot coding is the solution!
 
 ## Set Up Your Bot
 
-Search for the “botfather” telegram bot (he’s the one that’ll assist you with creating and managing your bot)
+Search for the `botfather` telegram bot (he’s the one that’ll assist you with creating and managing your bot)
 
-Type /help to see all possible commands the botfather can handle
+Type `/help` to see all possible commands the botfather can handle
 
-Click on or type /newbot to create a new bot then follow instructions and make a new name for your bot
+Click on or type `/newbot` to create a new bot then follow instructions and make a new name for your bot
 
 Congratulations! You have created your first bot. You should see a new API token.
 For example `777845702:AAFdPS_taJ3pTecEFv2jXkmbQfeOqVZGER`
