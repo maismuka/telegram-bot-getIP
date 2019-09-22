@@ -38,10 +38,8 @@ import logging
 import socket
 import telegram
 import config
-##
 import fcntl
 import struct
-##
 
 from telegram.ext import CommandHandler, Updater
 
@@ -56,10 +54,8 @@ def start(bot, update):
     if update.message.chat_id in config.CHATIDLIST:
         bot.send_message(chat_id=update.message.chat_id, text="I'm a bot, please talk to me!")
 
-
 def getid(bot, update):
-        bot.send_message(chat_id=update.message.chat_id, text=str(update.message.chat_id))
-        
+        bot.send_message(chat_id=update.message.chat_id, text=str(update.message.chat_id))   
 
 def getip(bot, update):
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
@@ -70,7 +66,28 @@ def getip(bot, update):
     )[20:24])
     bot.send_message(chat_id=update.message.chat_id, text=str(ss))
     
+# Handlers
+start_handler = CommandHandler('start', start)
+dispatcher.add_handler(start_handler)
 
+getid_handler = CommandHandler('getid', getid)
+dispatcher.add_handler(getid_handler)
+
+getip_handler = CommandHandler('getip', getip)
+dispatcher.add_handler(getip_handler)
+
+#if __name__ == 'main':
+print('IP Bot Started')
+updater.start_polling()
+```
+
+Now your Bot will have the basic function `/start`, `/getid` and `/getip`
+
+`/start` will return chat message `I'm a bot, please talk to me!`
+
+`/getid` will return the messanger chat ID
+
+`/getip` will return the local ip for the Bot server
 
 
 
