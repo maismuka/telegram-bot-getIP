@@ -27,6 +27,7 @@ Copy and paste this url :
 Replace <BOT TOKEN> with your token earlier. For example:
 ```https://api.telegram.org/bot777845702:AAFdPS_taJ3pTecEFv2jXkmbQfeOqVZGER/getUpdates```
 
+Look for `chat` object. It will be something like this `158328302`
 
 ## Set Up Bot Server
 
@@ -106,9 +107,10 @@ Now to create another file name `config.py`
 
 Edit file:
 
-CHATIDLIST=[128418302] #int list
-TOKEN='895940977:AAHomUgYXNy1gBsXEzyQTyDWUmImK4Y1OK4' #str
+```
+CHATIDLIST=[<CHAT ID>] #int list
+TOKEN='<BOT TOKEN>' #str
+```
 
-
-
+Replace both `<CHAT ID>` and `<BOT TOKEN>` into your id and token.
 
