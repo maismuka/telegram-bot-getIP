@@ -17,6 +17,17 @@ Click on or type /newbot to create a new bot then follow instructions and make a
 Congratulations! You have created your first bot. You should see a new API token.
 For example `777845702:AAFdPS_taJ3pTecEFv2jXkmbQfeOqVZGER`
 
+Then, obtain your personal chat id for your Bot to communicate into
+
+Search your bot and chat anything. There will be no response.
+
+Copy and paste this url :
+`https://api.telegram.org/bot<BOT TOKEN>/getUpdates`
+
+Replace <BOT TOKEN> with your token earlier. For example:
+```https://api.telegram.org/bot777845702:AAFdPS_taJ3pTecEFv2jXkmbQfeOqVZGER/getUpdates```
+
+
 ## Set Up Bot Server
 
 On your VPS server, run `sudo apt update && sudo apt -y upgrade`
@@ -90,6 +101,13 @@ Now your Bot will have the basic function `/start`, `/getid` and `/getip`
 `/getip` will return the local ip for the Bot server
 
 
+Now to create another file name `config.py`
+`nano config.py`
+
+Edit file:
+
+CHATIDLIST=[128418302] #int list
+TOKEN='895940977:AAHomUgYXNy1gBsXEzyQTyDWUmImK4Y1OK4' #str
 
 
 
