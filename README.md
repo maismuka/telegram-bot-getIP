@@ -1,5 +1,12 @@
 # telegram-bot-getIP
 
+This is a simple coding for Telegram Bot for returning local IP address.
+
+My current problem is when my Raspberry Pi connecting to random WiFi and I unable to opbtain IP address.
+
+This simple Telegram Bot coding is the solution!
+
+
 # Requirements
 
 1. VPS Server
@@ -113,4 +120,13 @@ TOKEN='<BOT TOKEN>' #str
 ```
 
 Replace both `<CHAT ID>` and `<BOT TOKEN>` into your id and token.
+
+
+## Run Your Code
+
+Run the code `bot_telegram_getIP.py` earlier:
+
+`python3 bot_telegram_getIP.py`
+
+Start communicating with your Bot
 
