@@ -4,6 +4,8 @@ This is a simple coding for Telegram Bot for returning local IP address.
 
 My current problem is when my Raspberry Pi connecting to random WiFi and I unable to opbtain IP address.
 
+After this tutorial, we might obtain user chat ID and bot IP local server
+
 This simple Telegram Bot coding is the solution!
 
 
@@ -127,3 +129,7 @@ Run the code `bot_telegram_getIP.py` earlier:
 
 Start communicating with your Bot
 
+In your Telegram, send message to your bot using command created earlier.
+
+
+## Run Python in Background Process
