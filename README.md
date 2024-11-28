@@ -24,7 +24,7 @@ Type `/help` to see all possible commands the botfather can handle
 Click on or type `/newbot` to create a new bot then follow instructions and make a new name for your bot
 
 Congratulations! You have created your first bot. You should see a new API token.
-For example `777845702:AAFdPS_taJ3pTecEFv2jXkmbQfeOqVZGER`
+For example `615445702:AAFdPS_taJ3pTecEFv2jXkmbQfeOqVZGER`
 
 Then, obtain your personal chat id for your Bot to communicate into
 
